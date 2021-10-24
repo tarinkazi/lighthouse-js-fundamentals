@@ -3,7 +3,7 @@ const howManyHundreds = function(number){
     return number / 100 ;
   }
   else {
-    let remaining = number % 100;
+    //let remaining = number % 100;
     return Math.floor(number / 100 );
   }
 }
